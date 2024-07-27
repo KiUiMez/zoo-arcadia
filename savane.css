@@ -1,0 +1,87 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5DC; /* Beige clair pour un fond naturel */
+    color: #2E4A1F; /* Vert foncé pour le texte principal */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    background-color: #4A7C59; /* Vert forêt */
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    color: #e6e65c !important; /* Beige clair */
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #F5F5DC; /* Beige clair */
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #181816; /* Or, pour un effet de survol */
+}
+
+/* Titre principal */
+h1 {
+    color: #4A7C59; /* Vert forêt */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Image principale de la savane */
+#habitat-savane img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Description de l'habitat */
+.habitat-description {
+    background-color: #E6E6C8; /* Beige plus foncé */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Cartes des animaux */
+.animal-card {
+    background-color: #F0F0E0; /* Beige très clair */
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.animal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.animal-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.animal-card .card-body {
+    padding: 15px;
+}
+
+.animal-card .card-title {
+    color: #4A7C59; /* Vert forêt */
+    font-weight: bold;
+}
+
+.animal-card .btn

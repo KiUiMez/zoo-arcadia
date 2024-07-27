@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitat Savane - Zoo Arcadia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="savane.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="accueil.html">Zoo Arcadia</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="accueil.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="habitats.html">Habitats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="habitat-savane">
+            <h1 class="mt-4">La Savane</h1>
+            <img src="images/savane.jpg" alt="Habitat Savane" class="img-fluid rounded mb-4">
+            <p class="habitat-description">
+                La savane du Zoo Arcadia est une vaste étendue qui reproduit fidèlement l'environnement naturel des grands mammifères africains. Avec ses herbes hautes, ses acacias épars et son point d'eau central, cet habitat offre un espace de vie idéal pour nos animaux emblématiques de la savane.
+            </p>
+
+            <h2>Nos animaux de la savane</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card animal-card" data-toggle="tooltip" data-placement="top" title="Cliquez pour voir les détails">
+                        <img src="images/lion.jpg" class="card-img-top" alt="Lion">
+                        <div class="card-body">
+                            <h5 class="card-title">Simba</h5>
+                            <p class="card-text">Lion d'Afrique</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#lion" data-animal="1">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card animal-card" data-toggle="tooltip" data-placement="top" title="Cliquez pour voir les détails">
+                        <img src="images/girafe.jpg" class="card-img-top" alt="Girafe">
+                        <div class="card-body">
+                            <h5 class="card-title">Melman</h5>
+                            <p class="card-text">Girafe de Rothschild</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#girafe" data-animal="2">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card animal-card" data-toggle="tooltip" data-placement="top" title="Cliquez pour voir les détails">
+                        <img src="images/zebre.jpg" class="card-img-top" alt="Zèbre">
+                        <div class="card-body">
+                            <h5 class="card-title">Marty</h5>
+                            <p class="card-text">Zèbre des plaines</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#zebre" data-animal="3">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal pour les détails des animaux -->
+    <div class="modal fade" id="lion" tabindex="-1" role="dialog" aria-labelledby="animalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalModalLabel">
+                    Le lion (Panthera leo) est un grand félin et l'un des animaux les plus emblématiques de la savane africaine. Souvent appelé le "roi des animaux", il est connu pour sa force et son comportement social unique.<br><br>
+                    Caractéristiques<br>
+                    Taille : Les mâles mesurent environ 1,5 à 2,5 mètres de long, sans compter la queue.<br>
+                    Poids : Les mâles pèsent entre 150 et 250 kg, tandis que les femelles pèsent entre 120 et 182 kg.<br>
+                    Pelage : Les mâles ont une crinière distinctive qui varie en couleur du blond au noir, tandis que les femelles sont généralement de couleur fauve.<br><br>
+                    Comportement : <br>Les lions vivent en groupes appelés "prides", composés de femelles apparentées et de quelques mâles. Ils chassent en groupe et se reposent ensemble.<br><br>
+                    Habitat<br>
+                    Les lions se trouvent principalement dans les savanes, les prairies et les forêts ouvertes d'Afrique subsaharienne. Ils sont carnivores et se nourrissent principalement de grands herbivores comme les zèbres et les buffles.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Le contenu sera rempli dynamiquement avec JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="girafe" tabindex="-1" role="dialog" aria-labelledby="animalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalModalLabel">La girafe (Giraffa camelopardalis) est le plus grand mammifère terrestre, célèbre pour son long cou et ses pattes élancées.<br><br>
+                    Caractéristiques<br>
+                    Taille : Les girafes mesurent entre 4,3 et 5,7 mètres de hauteur.<br>
+                    Poids : Elles pèsent entre 800 et 1 200 kg.<br>
+                    Pelage : Leur pelage est brun avec des taches irrégulières de couleur crème, ce qui leur permet de se camoufler dans leur habitat.<br><br>
+                    Comportement : <br>Les girafes sont généralement solitaires mais peuvent former des groupes lâches. Elles se nourrissent principalement de feuilles d'arbres, en particulier celles des acacias.<br><br>
+                    Habitat<br>
+                    On les trouve dans les savanes et les forêts ouvertes d'Afrique subsaharienne. Leur long cou leur permet d'atteindre les feuilles en hauteur, ce qui les rend moins concurrentielles pour la nourriture.
+</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Le contenu sera rempli dynamiquement avec JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="zebre" tabindex="-1" role="dialog" aria-labelledby="animalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalModalLabel">Le zèbre (Equus zebra) est un équidé connu pour ses rayures noires et blanches uniques, qui lui permettent de se camoufler dans la savane.<br><br>
+                    Caractéristiques<br>
+                    Taille : Les zèbres mesurent environ 1,2 à 1,5 mètre de hauteur au garrot.<br>
+                    Poids : Ils pèsent entre 200 et 450 kg selon l'espèce.<br>
+                    Pelage : Chaque zèbre a un motif de rayures unique, ce qui les aide à se distinguer les uns des autres.<br><br>
+                    Comportement :<br> Les zèbres sont des animaux sociaux qui vivent en troupeaux. Ils sont herbivores et se déplacent souvent avec d'autres espèces comme les gnous pour se protéger des prédateurs.<br><br>
+                    Habitat<br>
+                    Les zèbres se trouvent dans les savanes, les prairies et les zones boisées d'Afrique. Ils se nourrissent principalement d'herbe, mais peuvent également consommer des feuilles et des tiges.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Le contenu sera rempli dynamiquement avec JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Zoo Arcadia. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

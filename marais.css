@@ -1,0 +1,96 @@
+/* Styles généraux */
+body {
+    background-color: #e8f5e9; /* Couleur de fond légèrement verte pour l'aspect écologique */
+    font-family: 'Arial', sans-serif;
+    color: #2e7d32; /* Couleur de texte principale */
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background-color: #2e7d32; /* Vert foncé pour le menu */
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+    color: #a5d6a7 !important; /* Couleur de survol */
+}
+
+/* Styles pour le jumbotron */
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 5rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.bg-marais {
+    background-image: url('chemin/vers/image-marais.jpg'); /* Remplacez par le chemin de votre image */
+}
+
+.jumbotron .display-4 {
+    font-weight: bold;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+}
+
+/* Styles pour le contenu principal */
+.container h2, .container h3 {
+    color: #388e3c; /* Vert plus foncé pour les titres */
+}
+
+.container p, .container ul {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.container ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.container ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Styles pour les cartes d'animaux */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.card-title {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #4caf50;
+}
+
+.btn-success {
+    background-color: #388e3c;
+    border-color: #388e3c;
+}
+
+.btn-success:hover {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}

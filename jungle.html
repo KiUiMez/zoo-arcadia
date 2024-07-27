@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habitat Jungle - Zoo Arcadia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="jungle.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="accueil.html">Zoo Arcadia</a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="accueil.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="habitats.html">Habitats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="connexion.html">Connexion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="habitat-jungle">
+            <h1 class="mt-4">La Jungle</h1>
+            <img src="images/jungle.jpg" alt="Habitat Jungle" class="img-fluid rounded mb-4">
+            <p class="habitat-description">
+                La jungle du Zoo Arcadia est une reproduction fidèle des forêts tropicales luxuriantes. Avec sa végétation dense, ses lianes suspendues et son atmosphère humide, cet habitat offre un environnement idéal pour nos animaux exotiques de la jungle.
+            </p>
+
+            <h2>Nos animaux de la jungle</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card animal-card" data-toggle="tooltip" data-placement="top" title="Cliquez pour voir les détails">
+                        <img src="images/chimpanze.jpg" class="card-img-top" alt="Singe">
+                        <div class="card-body">
+                            <h5 class="card-title">George</h5>
+                            <p class="card-text">Chimpanzé</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#chimpanze" data-animal="4">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card animal-card" data-toggle="tooltip" data-placement="top" title="Cliquez pour voir les détails">
+                        <img src="images/arableu.jpg" class="card-img-top" alt="Perroquet">
+                        <div class="card-body">
+                            <h5 class="card-title">Rio</h5>
+                            <p class="card-text">Ara bleu</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#arableu" data-animal="5">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card animal-card" data-toggle="tooltip" data-placement="top" title="Cliquez pour voir les détails">
+                        <img src="images/jaguar.jpg" class="card-img-top" alt="Jaguar">
+                        <div class="card-body">
+                            <h5 class="card-title">Bagheera</h5>
+                            <p class="card-text">Jaguar</p>
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#jaguar" data-animal="6">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal pour les détails des animaux -->
+    <div class="modal fade" id="chimpanze" tabindex="-1" role="dialog" aria-labelledby="animalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalModalLabel">Le chimpanzé (Pan troglodytes) est un primate de la famille des Hominidés, étroitement lié à l'homme. Il est principalement trouvé dans les forêts tropicales et les savanes d'Afrique.<br><br>
+                        Taille : Environ 1,2 à 1,7 mètre de hauteur.<br>
+                        Poids : Entre 40 et 70 kg.<br>
+                        Pelage : Généralement noir ou brun, avec un visage nu et des oreilles saillantes.<br><br>
+                        Comportement : Les chimpanzés sont connus pour leur intelligence, leur capacité à utiliser des outils, et leurs comportements sociaux complexes. Ils vivent en groupes appelés communautés.<br><br>
+                        Habitat<br>
+                        Ils préfèrent les forêts denses, mais peuvent également être trouvés dans des habitats plus ouverts. Ils sont omnivores, se nourrissant de fruits, de feuilles, d'insectes et de petits mammifères.</a></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Le contenu sera rempli dynamiquement avec JavaScript -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour les détails des animaux -->
+    <div class="modal fade" id="arableu" tabindex="-1" role="dialog" aria-labelledby="animalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalModalLabel">L'ara bleu (Ara ararauna) est un grand perroquet coloré, célèbre pour son plumage éclatant et sa personnalité sociable.<br><br>
+                    Caractéristiques<br>
+                    Taille : Environ 86 cm de longueur.<br>
+                    Poids : Environ 1 kg.<br>
+                    Plumage : Principalement bleu avec des touches de jaune sur le ventre et les ailes. Le visage est nu et blanc, avec des yeux jaunes.<br><br>
+                    Comportement : Ces oiseaux sont très sociaux et vivent en groupes. Ils sont connus pour leur capacité à imiter des sons et des paroles humaines.<br><br>
+                    Habitat
+                    L'ara bleu se trouve principalement dans les forêts tropicales d'Amérique du Sud, notamment au Brésil, en Bolivie et au Paraguay. Ils se nourrissent principalement de fruits, de noix et de graines.</a></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Le contenu sera rempli dynamiquement avec JavaScript -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal pour les détails des animaux -->
+    <div class="modal fade" id="jaguar" tabindex="-1" role="dialog" aria-labelledby="animalModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalModalLabel">Le jaguar (Panthera onca) est le plus grand félin d'Amérique et le troisième plus grand au monde. Il est connu pour sa puissance et son agilité.<br><br>
+                    Caractéristiques<br>
+                    Taille : Environ 1,5 à 2,5 mètres de longueur, y compris la queue.<br>
+                    Poids : Entre 56 et 96 kg.<br>
+                    Pelage : Un pelage jaune avec des rosettes noires, qui lui permet de se camoufler dans son habitat.<br><br>
+                    Comportement : Les jaguars sont des chasseurs solitaires et sont connus pour leur force, leur capacité à grimper aux arbres et à nager.<br><br>
+                    Habitat
+                    On les trouve dans une variété d'habitats, y compris les forêts tropicales, les marais et les savanes en Amérique centrale et du Sud. Ils se nourrissent principalement de gros animaux comme les capybaras, les cerfs et même les reptiles.
+                    Ces descriptifs peuvent être utilisés pour enrichir le contenu de votre application web sur le zoo Arcadia, en fournissant aux visiteurs des informations intéressantes sur ces animaux.
+</a></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <!-- Le contenu sera rempli dynamiquement avec JavaScript -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer class="text-center mt-4">
+        <p>&copy; 2024 Zoo Arcadia. Tous droits réservés.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

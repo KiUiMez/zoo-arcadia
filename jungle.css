@@ -1,0 +1,8 @@
+#habitat-jungle {
+  background-color: #E6F0E2; /* Un vert plus clair pour évoquer la jungle */
+}
+
+#habitat-jungle .habitat-description {
+  border-left: 5px solid #2E8B57; /* Une bordure verte à gauche de la description */
+  padding-left: 15px;
+}

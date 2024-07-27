@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .navbar-brand {
+  color: #fff;
+}
+
+header .navbar-nav .nav-link {
+  color: #fff;
+}
+
+header .navbar-nav .nav-link:hover {
+  color: #A9A9A9;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #2E8B57;
+}
+
+footer {
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Section Styles */
+#presentation img {
+  width: 100%;
+  height: auto;
+}
+
+#habitats .row {
+  margin-top: 20px;
+}
+
+#habitats .col-md-4 {
+  text-align: center;
+}
+
+#habitats img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#services li {
+  background-color: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#avis {
+  margin-top: 20px;
+}
+
+#avis-list {
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3CB371;
+}
+
+@media (max-width: 768px) {
+  header .navbar-nav {
+    text-align: center;
+  }
+
+  #habitats .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
+
+

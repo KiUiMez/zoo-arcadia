@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+.navbar {
+    background-color: #2e7d32;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header .navbar-brand {
+  color: #fff;
+}
+
+header .navbar-nav .nav-link {
+  color: #fff;
+}
+
+header .navbar-nav .nav-link:hover {
+  color: #A9A9A9;
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #2E8B57;
+}
+
+footer {
+  background-color: #2E8B57;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#habitats .row {
+  margin-top: 20px;
+}
+
+#habitats .col-md-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#habitats img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+#habitats img:hover {
+  transform: scale(1.05);
+}
+
+#habitats h3 {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  header .navbar-nav {
+    text-align: center;
+  }
+
+  #habitats .col-md-4 {
+    margin-bottom: 20px;
+  }
+}
