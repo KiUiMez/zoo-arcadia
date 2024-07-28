@@ -1,120 +1,38 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #2E8B57;
-  color: #fff;
-  padding: 10px 0;
-}
-
-header .navbar-brand {
-  color: #fff;
-}
-
-header .navbar-nav .nav-link {
-  color: #fff;
-}
-
-header .navbar-nav .nav-link:hover {
-  color: #A9A9A9;
-}
-
-main {
-  padding: 20px;
-}
-
-h1, h2, h3 {
-  color: #2E8B57;
-}
-
-footer {
-  background-color: #2E8B57;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
-/* Section Styles */
-#presentation img {
-  width: 100%;
-  height: auto;
-}
-
-#habitats .row {
-  margin-top: 20px;
-}
-
-#habitats .col-md-4 {
-  text-align: center;
-}
-
-#habitats img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-#services ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#services li {
-  background-color: #e0e0e0;
-  margin: 5px 0;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-#avis {
-  margin-top: 20px;
-}
-
-#avis-list {
-  background-color: #e0e0e0;
-  padding: 10px;
-  border-radius: 4px;
-}
-
-/* Form Styles */
-form {
-  margin-top: 20px;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-form button {
-  background-color: #2E8B57;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background-color: #3CB371;
-}
-
-@media (max-width: 768px) {
-  header .navbar-nav {
-    text-align: center;
-  }
-
-  #habitats .col-md-4 {
-    margin-bottom: 20px;
-  }
-}
-
-
+        font-family: 'Arial', sans-serif;
+        background-color: #e8f5e9;
+        color: #2e7d32;
+    }
+    .navbar {
+        background-color: #2e7d32;
+    }
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+    .jumbotron {
+        background-image: url('chemin/vers/image-zoo.jpg');
+        background-size: cover;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        padding: 100px 0;
+    }
+    .section-title {
+        border-bottom: 2px solid #2e7d32;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-bottom: 20px;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card-title {
+        color: #2e7d32;
+    }
+    .review-card {
+        background-color: #c8e6c9;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+</style>
